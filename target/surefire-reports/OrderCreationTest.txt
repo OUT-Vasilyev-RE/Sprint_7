@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: OrderCreationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.044 s <<< FAILURE! - in OrderCreationTest
+checkOrderCanBeCreatedTest[2](OrderCreationTest)  Time elapsed: 0.46 s  <<< FAILURE!
+java.lang.AssertionError: Некорректное значение цвета expected:<[BLACK, GREY]> but was:<[BLACK]>
+	at OrderCreationTest.checkOrderCanBeCreatedTest(OrderCreationTest.java:61)
+
+checkOrderCanBeCreatedTest[3](OrderCreationTest)  Time elapsed: 0.475 s  <<< FAILURE!
+java.lang.AssertionError: Некорректное значение цвета expected:<[]> but was:<[BLACK]>
+	at OrderCreationTest.checkOrderCanBeCreatedTest(OrderCreationTest.java:61)
+

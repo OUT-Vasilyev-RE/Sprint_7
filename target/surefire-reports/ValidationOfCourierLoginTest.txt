@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: ValidationOfCourierLoginTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 71.589 s <<< FAILURE! - in ValidationOfCourierLoginTest
+checkFieldsValidationOfCourierLoginTest[0](ValidationOfCourierLoginTest)  Time elapsed: 71.546 s  <<< FAILURE!
+java.lang.AssertionError: Некорректный код статуса expected:<400> but was:<504>
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:51)
+
+checkFieldsValidationOfCourierLoginTest[0](ValidationOfCourierLoginTest)  Time elapsed: 71.547 s  <<< ERROR!
+java.net.UnknownHostException: Этот хост неизвестен (qa-scooter.praktikum-services.ru)
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+
+checkFieldsValidationOfCourierLoginTest[1](ValidationOfCourierLoginTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:46)
+
+checkFieldsValidationOfCourierLoginTest[1](ValidationOfCourierLoginTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+
+checkFieldsValidationOfCourierLoginTest[2](ValidationOfCourierLoginTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:46)
+
+checkFieldsValidationOfCourierLoginTest[2](ValidationOfCourierLoginTest)  Time elapsed: 0.016 s  <<< ERROR!
+java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+

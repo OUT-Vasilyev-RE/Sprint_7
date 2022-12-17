@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ValidationOfCourierLoginTest" time="71.589" tests="6" errors="5" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\vasli\IdeaProjects\Sprint_7\target\test-classes;C:\Users\vasli\IdeaProjects\Sprint_7\target\classes;C:\Users\vasli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\vasli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vasli\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vasli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vasli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vasli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vasli\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\vasli\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\vasli\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\vasli\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\vasli\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\vasli\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\vasli\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\vasli\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\vasli\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\vasli\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-junit4\2.16.1\allure-junit4-2.16.1.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-java-commons\2.16.1\allure-java-commons-2.16.1.jar;C:\Users\vasli\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-model\2.16.1\allure-model-2.16.1.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\vasli\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\vasli\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\vasli\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\vasli\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\vasli\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\vasli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\vasli\AppData\Local\Temp\surefire4539563782143424545\surefirebooter16821881594537761401.jar C:\Users\vasli\AppData\Local\Temp\surefire4539563782143424545 2022-12-17T18-02-15_512-jvmRun1 surefire15119028355825783841tmp surefire_03844083942569081345tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\vasli\IdeaProjects\Sprint_7\target\test-classes;C:\Users\vasli\IdeaProjects\Sprint_7\target\classes;C:\Users\vasli\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\vasli\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\vasli\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\vasli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vasli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\vasli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\vasli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\vasli\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\vasli\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\vasli\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\vasli\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\vasli\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\vasli\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\vasli\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\vasli\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\vasli\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\vasli\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\vasli\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-junit4\2.16.1\allure-junit4-2.16.1.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-java-commons\2.16.1\allure-java-commons-2.16.1.jar;C:\Users\vasli\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\vasli\.m2\repository\io\qameta\allure\allure-model\2.16.1\allure-model-2.16.1.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.0\jackson-databind-2.13.0.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.0\jackson-annotations-2.13.0.jar;C:\Users\vasli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.0\jackson-core-2.13.0.jar;C:\Users\vasli\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\vasli\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\vasli\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\vasli\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\vasli\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\vasli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\vasli\IdeaProjects\Sprint_7\target/allure-results"/>
+    <property name="user.home" value="C:\Users\vasli"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\vasli\IdeaProjects\Sprint_7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vasli\AppData\Local\Temp\surefire4539563782143424545\surefirebooter16821881594537761401.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="user.name" value="vasli"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="localRepository" value="C:\Users\vasli\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vasli\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.1.3"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="C:\Users\vasli\IdeaProjects\Sprint_7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Amazon Corretto\jdk11.0.15_9\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\vasli\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2021.2\bin;C:\Users\vasli\AppData\Local\Programs\Fiddler;C:\Program Files\WebDriver\bin;C:\WebDriver\bin;C:\Users\vasli\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;;C:\Users\vasli\Downloads\allure-commandline-2.20.1\allure-2.20.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[0]" classname="ValidationOfCourierLoginTest" time="71.546">
+    <failure message="Некорректный код статуса expected:&lt;400&gt; but was:&lt;504&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Некорректный код статуса expected:<400> but was:<504>
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:51)
+]]></failure>
+  </testcase>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[0]" classname="ValidationOfCourierLoginTest" time="71.547">
+    <error message="Этот хост неизвестен (qa-scooter.praktikum-services.ru)" type="java.net.UnknownHostException">java.net.UnknownHostException: Этот хост неизвестен (qa-scooter.praktikum-services.ru)
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+</error>
+  </testcase>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[1]" classname="ValidationOfCourierLoginTest" time="0.017">
+    <error message="qa-scooter.praktikum-services.ru" type="java.net.UnknownHostException">java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:46)
+</error>
+  </testcase>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[1]" classname="ValidationOfCourierLoginTest" time="0.017">
+    <error message="qa-scooter.praktikum-services.ru" type="java.net.UnknownHostException">java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+</error>
+  </testcase>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[2]" classname="ValidationOfCourierLoginTest" time="0.016">
+    <error message="qa-scooter.praktikum-services.ru" type="java.net.UnknownHostException">java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.checkFieldsValidationOfCourierLoginTest(ValidationOfCourierLoginTest.java:46)
+</error>
+  </testcase>
+  <testcase name="checkFieldsValidationOfCourierLoginTest[2]" classname="ValidationOfCourierLoginTest" time="0.016">
+    <error message="qa-scooter.praktikum-services.ru" type="java.net.UnknownHostException">java.net.UnknownHostException: qa-scooter.praktikum-services.ru
+	at ValidationOfCourierLoginTest.tearDown(ValidationOfCourierLoginTest.java:22)
+</error>
+  </testcase>
+</testsuite>
